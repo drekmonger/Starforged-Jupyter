@@ -1,0 +1,247 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Cuprum&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+.flex-meter {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.flex-stat-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.smalltext {
+    text-align:center;
+    font-family: "Open Sans", San-Serif;
+    font-size: .6em;
+    padding: 2px;
+    color: darkslategray;
+}
+
+.bignumber {
+    text-align:center;
+    font-family: "Cuprum", San-Serif;
+    font-size: 2.2em;
+    padding: 0px;
+    color: darkslategray;
+}
+
+
+.meter-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkslategray;
+    width: 1.5em;
+    height: 2em;
+    margin: 0px;
+    border-radius: 0px;
+    font-family: "Open Sans", San-Serif;
+    font-weight: light;
+    font-size: 1em;
+    padding: 1px;
+    color: #D8DDE2;
+    border: 2px solid darkslategray;
+    background: white;
+}
+
+.flex-meter .meter-number:first-of-type {
+    border-radius: 25px 0px 0px 25px;
+}
+    
+.flex-meter .meter-number:last-of-type {
+    border-radius: 0px 25px 25px 0px;
+}
+
+
+.meter-number.set {
+    background: darkslategray;
+    color: white;
+    font-weight: bold;
+}
+
+.label {
+    font-family: "Cuprum", San-Serif;
+    font-size: 1.3em;
+    line-height: 1.2;
+    border-radius: 25px;
+    margin: 0px;
+}
+
+
+
+.normalize-font {
+    font-family: "Open Sans", San-Serif;
+    font-size: small;
+}
+
+
+.meter-container {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.stat {
+    text-align: center;
+    border: 3px solid darkslategray;
+    width: 3.5em;
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px darkslategray;
+    font-family: "Cuprum", San-Serif;
+    line-height: 1;
+    padding: 3px;
+    background: white;
+}
+
+.spacer-impact{
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.flex-impact-container {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+}
+
+.impact {
+    margin: 4px;
+    padding: 0px;
+    color: grey;
+    font-family: "Open Sans", San-Serif;
+}
+
+.impact.set {
+    color: black;
+}
+
+
+
+.field {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: .9em;
+ }
+
+.fieldlabel {
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.ypesuff {
+    font-size: 1.5em;
+    background: ghostwhite;
+    width: 300px;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: normal;
+    border: 1px solid darkslategray;
+    margin: 0px;
+    box-shadow: 1px 1px 2px darkslategray;
+    min-height: 20px;
+}
+
+.sheet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    padding: 10px;
+    width: 650px;
+}
+
+.progress {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://i.imgur.com/kBfTK5M.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.progress.onetick{
+    background-image: url("https://i.imgur.com/7gM4hVX.png")
+}
+
+.progress.twoticks{
+    background-image: url("https://i.imgur.com/9uCC5aE.png")
+}
+
+.progress.threeticks{
+    background-image: url("https://i.imgur.com/fgn6yNB.png")
+}
+
+.progress.full{
+    background-image: url("https://i.imgur.com/HQJ4U0W.png")
+}
+
+.menace{
+    width: 24px;
+    height: 5px;
+    margin: 1px;
+    background: white;
+    border: 2px solid darkslategray;
+    border-radius: 3px;
+} 
+
+.menace.set{
+    background: darkslategray;
+}
+
+.round-number{
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    margins: 0px;
+    min-width: 28px;
+    height: 10px;
+    text-align: center;
+    font-family: "Open Sans", San-Serif;
+    font-size: .7em;
+    display: inline-block;
+    padding: 4px;
+    line-height: 1.1;
+}
+
+.category {
+    font-family: "Cuprum", San-Serif;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: lightgrey;
+    color: white;
+    min-width: 100px;
+    padding: 2px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+}
+
+.catlist {
+}
+
+.catlist .category:first-of-type{
+    
+    margin-top: 1px;
+}
+
+.paintitblack {
+    background: darkslategrey;
+}
+
+
+
+
+</style>
