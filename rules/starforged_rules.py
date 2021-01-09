@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[87]:
 
 
 import json, random, re
@@ -13,16 +13,19 @@ from copy import deepcopy, copy
 from IPython.display import display, HTML, Markdown
 
 
-# In[2]:
+# In[88]:
 
 
-with open("starforged.css", "r") as file:
+if not "PATH" in globals():
+    PATH=""
+
+with open(PATH + "starforged.css", "r") as file:
     display(HTML(file.read()))
 
 
 # ## Settings
 
-# In[3]:
+# In[89]:
 
 
 ruleoption_match_on_even_only = True
@@ -30,7 +33,7 @@ ruleoption_match_on_even_only = True
 
 # ## Consts
 
-# In[4]:
+# In[90]:
 
 
 result_types = ["Miss", "Weak Hit", "Strong Hit"]
@@ -96,7 +99,7 @@ def chance (percentage):
 
 # ## Utility Functions
 
-# In[5]:
+# In[91]:
 
 
 str_join = "&ensp;⁃&ensp;"
@@ -134,7 +137,7 @@ def print_list (function, length = 5):
     printmd(_listing(function, length))
 
 
-# In[6]:
+# In[92]:
 
 
 def _convert_label_to_attr_str (label_str):
@@ -151,7 +154,7 @@ def printmd (obj):
 
 # ## Fields
 
-# In[7]:
+# In[93]:
 
 
 class Field():
@@ -191,7 +194,7 @@ class Field():
 # 
 # Children of this class should always implement: `reset()`, `clear(value)`, `mark(value)`, `_validation_hoook(value)`, and `_coercion_hook(value)`.
 
-# In[8]:
+# In[94]:
 
 
 class Entry():
@@ -268,7 +271,7 @@ class Entry():
 
 # ### Stat class
 
-# In[9]:
+# In[95]:
 
 
 class Stat(Entry):
@@ -380,7 +383,7 @@ class PCStat(Stat):
 
 # ### Impact class
 
-# In[10]:
+# In[96]:
 
 
 class Impact(Stat):
@@ -424,7 +427,7 @@ class Impact(Stat):
 
 # ### StatMeter class
 
-# In[11]:
+# In[97]:
 
 
 class StatMeter(Stat):
@@ -468,7 +471,7 @@ class Momentum(StatMeter):
 
 # ### ProgressMeter class
 
-# In[12]:
+# In[98]:
 
 
 class ProgressMeter(Stat):
@@ -573,7 +576,7 @@ class ProgressMeter(Stat):
         return ""
 
 
-# In[13]:
+# In[99]:
 
 
 class _Dummy_Track(ProgressMeter):
@@ -611,7 +614,7 @@ _dummy_track = _Dummy_Track()
 
 # ### Stat Tester
 
-# In[31]:
+# In[100]:
 
 
 class Tester ():
@@ -637,7 +640,7 @@ class Tester ():
 
 # ## Category Bin
 
-# In[15]:
+# In[101]:
 
 
 
@@ -724,7 +727,7 @@ class _item_template():
 
 # ## Binder
 
-# In[16]:
+# In[102]:
 
 
 class Binder ():
@@ -860,7 +863,7 @@ binder = Binder()
 
 # ## Oracle
 
-# In[17]:
+# In[103]:
 
 
 class _Oracle_Response():
@@ -905,7 +908,7 @@ class Oracles():
         if hasattr(self, data_attr):
             data = getattr (self, data_attr)
         else:
-            with open(f"Data/starforged_oracles_{oracle}.json", "r") as file:
+            with open(PATH + f"Data/starforged_oracles_{oracle}.json", "r") as file:
                 data = json.load(file)
             setattr (self, data_attr, data)
         
@@ -1070,11 +1073,11 @@ oracle = Oracles()
 
 # ## Setting Truths
 
-# In[18]:
+# In[104]:
 
 
 def _Truths ():
-    with open(f"Data/starforged_setting_truths.json", "r") as file:
+    with open(PATH + f"Data/starforged_setting_truths.json", "r") as file:
         data = json.load(file)
     catagory = data["Setting Truths"]
     
@@ -1121,7 +1124,7 @@ def truth_reset():
 
 # ## Progress Track Sheet
 
-# In[21]:
+# In[105]:
 
 
 class Track_Sheet():
@@ -1336,7 +1339,7 @@ tracker = Track_Sheet()
 # ## Assets
 # 
 
-# In[22]:
+# In[106]:
 
 
 class Asset():
@@ -1350,7 +1353,7 @@ class Asset():
 class Asset_Container:
     
     def __init__(self):
-        with open("Data/starforged_assets.json", "r") as file:
+        with open(PATH + "Data/starforged_assets.json", "r") as file:
             file.data = json.load(file)
         
 
@@ -1365,7 +1368,7 @@ test_assets = Asset_Container()
 
 # ## Player Character
 
-# In[23]:
+# In[107]:
 
 
 class Player_Character():
@@ -1559,7 +1562,7 @@ pc = Player_Character()
 
 
 
-# In[24]:
+# In[108]:
 
 
 class _roll():
@@ -1694,7 +1697,7 @@ class _roll():
 
 # ### Dice Functions
 
-# In[25]:
+# In[109]:
 
 
 _last_roll = None
@@ -1723,7 +1726,7 @@ def roll_action (trait=0, mod=0, move=None):
 action_roll = roll_action
 
 
-# In[26]:
+# In[110]:
 
 
 def roll_progress (target, move=None):    
@@ -1747,7 +1750,7 @@ def roll_progress (target, move=None):
 progress_roll = roll_progress
 
 
-# In[27]:
+# In[111]:
 
 
 def reroll (action = -1, c1= -1, c2 = -1):
@@ -1774,7 +1777,7 @@ def reroll (action = -1, c1= -1, c2 = -1):
     display(_last_roll)
 
 
-# In[28]:
+# In[112]:
 
 
 def burn_momentum (character = None):
@@ -1828,7 +1831,7 @@ def burn_momentum (character = None):
 
 
 
-# In[29]:
+# In[113]:
 
 
 class _Moves(_CategoryBin):
@@ -1838,7 +1841,7 @@ class _Moves(_CategoryBin):
         
         self._desc = "Moves"
         
-        with open("Data/starforged_moves_drek.json", "r") as _file:
+        with open(PATH + "Data/starforged_moves_drek.json", "r") as _file:
             self._data = json.load(_file)
         
         categories = defaultdict(list)
@@ -1909,7 +1912,13 @@ move = _Moves()
 
 # ## Testing Playground
 
-# In[30]:
+# In[ ]:
+
+
+
+
+
+# In[ ]:
 
 
 
