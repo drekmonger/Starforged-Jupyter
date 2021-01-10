@@ -6,7 +6,7 @@
   },
   "Assets": {
     "Starship": {
-      "Category": "Command Vehicle",
+      "Asset Type": "Command Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -25,7 +25,7 @@
       "Integrity": 5
     },
     "Engine Upgrade": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "Your vehicle’s finely-tuned engines speed your travels. When you __Undertake an Expedition__ (+edge) and roll a strong hit with 6 on your action die, take +2 momentum.",
@@ -40,7 +40,7 @@
       ]
     },
     "Expanded Hold": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "Your vehicle carries up to +3 cargo. When you earn +supply, you may convert it to +cargo. When you have access to your vehicle and make a move +supply, you may add +cargo. When you __Sacrifice Resources__, you may instead suffer -cargo for any portion of the cost.",
@@ -60,7 +60,7 @@
       }
     },
     "Heavy Cannons": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "When you aim your cannons and use them to __Strike__, choose one:\n\n  * Strafing run: Add +1 and take +1 momentum on a hit\n  * Focus fire: Mark progress on a hit, but suffer -1 momentum",
@@ -75,7 +75,7 @@
       ]
     },
     "Internal Refit": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "You have customized the cabins, common spaces, and environment of the ship to your needs. When you __Undertake an Expedition__ (dangerous or greater), reroll any dice for the first leg of your journey. On a hit, you and your allies may envision how you make yourself at home; if you do, take +2 momentum or +1 spirit.",
@@ -90,7 +90,7 @@
       ]
     },
     "Medbay": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "When you use your medbay to __Heal__ yourself or another patient, you may reroll your action die if its value is less than your vehicle’s integrity.",
@@ -105,7 +105,7 @@
       ]
     },
     "Missile Array": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "You have +5 missiles. When you __Strike__ or __Clash__ with a missile attack, suffer -1 missile and mark progress on a hit. If you __Resupply__ in a place where your missiles can be replenished, you may exchange any earned +supply for +missile.",
@@ -125,7 +125,7 @@
       }
     },
     "Overseer": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Input Fields": [
         "Name"
       ],
@@ -143,7 +143,7 @@
       ]
     },
     "Reinforced Hull": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "Your vehicle is clad in iron. When you __Withstand Damage__, add +1. On a strong hit, take +1 momentum.",
@@ -158,7 +158,7 @@
       ]
     },
     "Research Lab": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "When you use your lab to __Secure an Advantage__ or __Gather Information__ through careful analysis or experimentation, add +1 and take +1 momentum on a hit.",
@@ -173,7 +173,7 @@
       ]
     },
     "Sensor Array": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "Your advanced sensors scan the paths ahead to help spot dangers. When you __Undertake an Expedition__ (+wits), and roll a 10 on only one challenge die, you may reroll it.",
@@ -188,7 +188,7 @@
       ]
     },
     "Shields": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "When you raise your shields, roll +integrity or +wits, whichever is higher. On a strong hit, set your shields to +4. On a weak hit, make them +3. On a miss, you may make them +2 but must __Lose Momentum (-1)__. Then, if you __Withstand Damage__, ignore damage up to the value of your shields and suffer -1 shields. Raised shields only last for a few minutes. Once reduced to 0, shields cannot be raised again for an hour or so.",
@@ -208,7 +208,7 @@
       }
     },
     "Stealth Refit": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "Your vehicle is equipped with stealth tech. When you __Undertake an Expedition__ (+shadow), and roll a 1 on your action die, you may reroll it.",
@@ -223,7 +223,7 @@
       ]
     },
     "Vehicle Bay": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "You may purchase or upgrade a support vehicle for 1 less experience. When you __Repair__ a battered support vehicle, use 1 repair point (instead of 2).",
@@ -238,7 +238,7 @@
       ]
     },
     "Workshop": {
-      "Category": "Module",
+      "Asset Type": "Module",
       "Asset Fields": [
         {
           "Text": "When you __Repair__ in the field, add +1.",
@@ -253,7 +253,7 @@
       ]
     },
     "Exosuit": {
-      "Category": "Support Vehicle",
+      "Asset Type": "Support Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -272,7 +272,7 @@
       "Integrity": 6
     },
     "Hoverbike": {
-      "Category": "Support Vehicle",
+      "Asset Type": "Support Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -291,7 +291,7 @@
       "Integrity": 3
     },
     "Rover": {
-      "Category": "Support Vehicle",
+      "Asset Type": "Support Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -310,7 +310,7 @@
       "Integrity": 4
     },
     "Shuttle": {
-      "Category": "Support Vehicle",
+      "Asset Type": "Support Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -329,7 +329,7 @@
       "Integrity": 4
     },
     "Snub Fighter": {
-      "Category": "Support Vehicle",
+      "Asset Type": "Support Vehicle",
       "Input Fields": [
         "Name"
       ],
@@ -352,7 +352,7 @@
       }
     },
     "Combat Bot": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -371,7 +371,7 @@
       "Health": 5
     },
     "Glowcat": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -390,7 +390,7 @@
       "Health": 3
     },
     "Rockhorn": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -409,7 +409,7 @@
       "Health": 5
     },
     "Sidekick": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name",
         "Expertise"
@@ -429,7 +429,7 @@
       "Health": 4
     },
     "Survey Bot": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -448,7 +448,7 @@
       "Health": 3
     },
     "Utility Bot": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -467,7 +467,7 @@
       "Health": 3
     },
     "Voidglider": {
-      "Category": "Companion",
+      "Asset Type": "Companion",
       "Input Fields": [
         "Name"
       ],
@@ -486,7 +486,7 @@
       "Health": 4
     },
     "Ace": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Face Danger__ or __React Under Fire__ by guiding your vehicle through a hazard or out of harm’s way, add +1 and take +1 momentum on a hit.",
@@ -501,7 +501,7 @@
       ]
     },
     "Agent": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you make a move to break into a secure site, or to hack or manipulate a secure system, add +1 and take +1 momentum on a hit.",
@@ -516,7 +516,7 @@
       ]
     },
     "Archivist": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You are the bearer of a digital archive of esoteric knowledge. When you __Secure an Advantage__ or __Gather Information__ using lore recalled from your studies, add +1. If you have ample time to search the archive, add +2. On a hit, envision the obscure but helpful knowledge you put to use (__Ask the Oracle__ if unsure), and take +1 momentum.",
@@ -531,7 +531,7 @@
       ]
     },
     "Armored": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you wear your finely crafted set of personal armor...",
       "Asset Fields": [
         {
@@ -547,7 +547,7 @@
       ]
     },
     "Augmented": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Input Fields": [
         "One",
         "Two"
@@ -566,7 +566,7 @@
       ]
     },
     "Bannersworn": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Input Fields": [
         "Ideology"
       ],
@@ -584,7 +584,7 @@
       ]
     },
     "Blademaster": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you wield a bladed weapon...",
       "Asset Fields": [
         {
@@ -600,7 +600,7 @@
       ]
     },
     "Bounty Hunter": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Swear an Iron Vow__ to bring in a bounty, add +1. On a strong hit, you’ve got a lead and may immediately __Reach a Milestone__. When you __Fulfill Your Vow__, make the legacy reward one rank higher (1 extra box if already epic).",
@@ -615,7 +615,7 @@
       ]
     },
     "Brawler": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you fighting unarmed or with a close-quarters weapon...",
       "Asset Fields": [
         {
@@ -631,7 +631,7 @@
       ]
     },
     "Commander": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Aid Your Ally__ through leadership, coordination, or planning, add +1. On a strong hit, any allies who are present take +1 momentum.",
@@ -646,7 +646,7 @@
       ]
     },
     "Devotant": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Input Fields": [
         "Name",
         "Stat"
@@ -665,7 +665,7 @@
       ]
     },
     "Diplomat": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Swear an Iron Vow__ (formidable or greater) to resolve a dispute, negotiate an agreement, or gather allies, add +1. On a strong hit, __Reach a Milestone__. When you __Fulfill Your Vow__ and score a hit, also mark 2 ticks on your bonds legacy track.",
@@ -680,7 +680,7 @@
       ]
     },
     "Explorer": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Explore a Waypoint__, take +1 momentum on a hit. When you __Finish an Expedition__ and score a hit, mark one extra tick on your discoveries legacy track.",
@@ -695,7 +695,7 @@
       ]
     },
     "Firebrand": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You wield fiery mystical energy. When you rest and meditate to gather this energy, roll +spirit. On a strong hit, take up to +3 fire. On a weak hit, take +2. On a miss, take +2 fire but __Endure Harm (-2)__. Your max fire is +5. You may make moves aided by this energy to attack or overcome obstacles; when you do, add +2 and suffer -1 fire.",
@@ -715,7 +715,7 @@
       }
     },
     "Gearhead": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Repair__ (+wits), add +1 and take +1 repair point or +1 momentum on a hit.",
@@ -730,7 +730,7 @@
       ]
     },
     "Gunner": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you wield a heavy ranged weapon...",
       "Asset Fields": [
         {
@@ -747,7 +747,7 @@
       ]
     },
     "Gunslinger": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you wield a pistol...",
       "Asset Fields": [
         {
@@ -763,7 +763,7 @@
       ]
     },
     "Haunted": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You are haunted by the spirit of someone whose death you caused or mourn (or both). When you make a move to call upon their insight, add +1. On a weak hit, also __Endure Stress (-1)__. On a strong hit with a match, mark 1 tick on your bonds legacy track.",
@@ -778,7 +778,7 @@
       ]
     },
     "Healer": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you give medical care to __Heal__ yourself or another character, add +1. If you are treating someone other than yourself, take +1 spirit or +1 momentum on a hit.",
@@ -793,7 +793,7 @@
       ]
     },
     "Kinetic": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You wield kinetic powers. By focusing, you may remotely push, pull, lift, or constrict objects and beings that are about your size or smaller. When you are in a risky situation and draw on your powers to make a move, add +2 and __Lose Momentum (-1)__.",
@@ -808,7 +808,7 @@
       ]
     },
     "Loyalist": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Aid Your Ally__, add +1 and take +1 momentum on a hit. This is in addition to the benefits taken by your ally. On a strong hit with a match, envision how this moment marks a breakthrough or milestone in your relationship; both of you may mark 1 tick on your bonds legacy track.",
@@ -823,7 +823,7 @@
       ]
     },
     "Mercenary": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you agree to wage war or defend others from war in exchange for payment or promises, you may __Swear an Iron Vow__ to see the mission done. If you do, reroll any dice. When you __Fulfill Your Vow__, make the legacy reward one rank higher (1 extra box if already epic)",
@@ -838,7 +838,7 @@
       ]
     },
     "Naturalist": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Secure an Advantage__ or __Gather Information__ using your knowledge of lifeforms or planetside ecosystems, add +1 and take +1 momentum on a hit. On a strong hit with a match, you also confirm an obscure theory or reveal a surprising aspect of the encounter; mark 1 tick on your discoveries legacy track.",
@@ -853,7 +853,7 @@
       ]
     },
     "Navigator": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Set a Course__, choose one.\n\n  * Follow the fastest path: Take +2 momentum on a hit.\n  * Follow the safest path: Add +1\n\nOn a strong hit with a match, you charted a new path during the journey; mark 1 tick on your discoveries legacy track.",
@@ -868,7 +868,7 @@
       ]
     },
     "Scavenger": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Gather Information__ or __Resupply__ by scavenging a wreck, ruin, or abandoned site, add +1 and take +1 momentum on a hit. On a strong hit with a match, you also find something of unique value, significance, or function; envision the nature of this discovery, take +2 momentum, and mark 2 ticks on your discoveries legacy track.",
@@ -883,7 +883,7 @@
       ]
     },
     "Scoundrel": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you make a move by lying, bluffing, stealing, or cheating, add +1.",
@@ -898,7 +898,7 @@
       ]
     },
     "Seer": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "Through focused meditation, you may peer through the veils of reality to __Gather Information__ about a place, being, or event. If you do, roll +spirit. On a strong hit with a match, you experience a surprising but helpful revelation; take +2 momentum.\n\nOn a miss with a match, you are plagued by visions of a dire threat or complication; __Endure Stress (-3)__.",
@@ -913,7 +913,7 @@
       ]
     },
     "Sharpshooter": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Description": "If you wield a rifle...",
       "Asset Fields": [
         {
@@ -929,7 +929,7 @@
       ]
     },
     "Slayer": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you make a move to investigate, stalk, or track a hostile creature, add +1 and take +1 momentum on a hit.",
@@ -944,7 +944,7 @@
       ]
     },
     "Tech": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you make a move to configure, optimize, hack, or disrupt an electronic system, add +1. On a weak hit, you can choose to press your luck. If you do, reroll all dice and add +2 (instead of +1).",
@@ -959,7 +959,7 @@
       ]
     },
     "Trader": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you __Sojourn__ or __Compel__, you may roll +supply. If you do, suffer -1 supply.",
@@ -974,7 +974,7 @@
       ]
     },
     "Vestige": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Input Fields": [
         "Last of"
       ],
@@ -992,7 +992,7 @@
       ]
     },
     "Veteran": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "When you are in a fight, increase your momentum reset by 1. Then, if you burn momentum to improve your result, add +1 on your next move.",
@@ -1007,7 +1007,7 @@
       ]
     },
     "Voidborn": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You are most suited to life in the limitless void. When you are in space (or a spacebound vehicle or station), increase your momentum reset by 1. When you enter a planetside or high gravity environment, __Lose Momentum (-1)__.",
@@ -1022,7 +1022,7 @@
       ]
     },
     "Weaponmaster": {
-      "Category": "Path",
+      "Asset Type": "Path",
       "Asset Fields": [
         {
           "Text": "You are a walking arsenal. When you __Enter the Fray__ in personal combat, add +1 and take +1 momentum on a hit. Once per fight, when you __Gain Ground__ by switching weapons or changing tactics, you may take an automatic strong hit.",
@@ -1037,7 +1037,7 @@
       ]
     },
     "Home": {
-      "Category": "Deed",
+      "Asset Type": "Deed",
       "Input Fields": [
         "Name"
       ],
@@ -1056,7 +1056,7 @@
       ]
     },
     "Marked": {
-      "Category": "Deed",
+      "Asset Type": "Deed",
       "Input Fields": [
         "Sigil/Title"
       ],
@@ -1075,7 +1075,7 @@
       ]
     },
     "Oathbreaker": {
-      "Category": "Deed",
+      "Asset Type": "Deed",
       "Description": "Once you __Forsake Your Vow__...",
       "Asset Fields": [
         {
@@ -1091,7 +1091,7 @@
       ]
     },
     "Revenant": {
-      "Category": "Deed",
+      "Asset Type": "Deed",
       "Description": "Once you __Face Death__ and live to tell the tale...",
       "Asset Fields": [
         {

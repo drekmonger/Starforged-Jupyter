@@ -97,6 +97,7 @@
     line-height: 1;
     padding: 3px;
     background: white;
+    color: black;
 }
 
 .spacer-impact{
@@ -137,6 +138,7 @@
 .fieldlabel {
     font-weight: bold;
     line-height: 1.3;
+    color: black;
 }
 
 .ypesuff {
@@ -157,7 +159,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: white;
     padding: 10px;
     width: 650px;
 }
